@@ -127,3 +127,6 @@ def userLogout(request):
     logout(request)
     messages.success(request,'Çıkış yapıldı')
     return redirect('index')
+
+def ekleme(request):
+    return redirect('index')
