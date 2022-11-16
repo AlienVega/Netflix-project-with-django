@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <form method="POST"  class="w-50 m-auto border text-light p-4 mt-5">
+            {% csrf_token %}
+            <!-- {{form}} -->
+            <label for="">kullanıcı adı</label>
+            <input type="text" class="form-control" name="kullanici">
+            <label for="">email</label>
+            <input type="email" class="form-control" name="email">
+            <input type="submit" value="güncelle" class="btn btn-primary mt-2">
+        </form>
+    </div>
+{% endblock content %}
