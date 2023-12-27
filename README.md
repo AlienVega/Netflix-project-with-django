@@ -1,5 +1,5 @@
 
-* PROJE AÇIKLAMASI *
+# PROJE AÇIKLAMASI 
 
 Bu Netflix projesi Html Css Bootstrap Python ve Django ile Geliştirildi.
 
@@ -12,7 +12,7 @@ Profil oluşturduktan sonra Yönetim panelinden Film kategorisi ekleyebilir ve e
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-* PROJEYİ ÇALIŞTIRMA *
+# PROJEYİ ÇALIŞTIRMA 
 Projeyi local'e indirdikten sonra ana dizindeyken terminali açın ve şu komutu yazın
 python manage.py runserver
 terminalde verilen server adresini tarayıcı üzerinden açın
